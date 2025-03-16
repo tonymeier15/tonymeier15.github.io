@@ -6,6 +6,7 @@
     border-radius: 8px;
     box-shadow: 0 0 12px 0 #0003;
     padding-bottom: 16px;
+    margin-top: 10px;
 }
 
 #weather_alert_container_title {
