@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="weather_alert.css">
+    <script src="NavBar.js"></script>
+</head>
+<body>
+
+    <!--    Navigation bar  -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="forecast.html">Forecast</a>
+        <a href="locationSearch.html">LocationSearch</a>
+        <a href="Settings.html">Settings</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div id="weather_alert_container" class="hidden">
+        <div id="weather_alert_container_title">
+            <strong>Weather Alerts</strong>
+            <span>
+                -
+            </span>
+
+            <span id="weather_alert_container_location">
+                
+            </span>
+        </div>
+
+        <div id="weather_alert_container_information"></div>
+    </div>
+
+
+    <script src="weather_alert.js"></script>
+    
+    <!--    Body     -->
+
+    <div class="container">
+        <h1>Welcome to the Weather App</h1>
+        <p>Get real-time weather updates for your location!</p>
+    </div>
+    
+    <!--    Footer   -->
+    
+    <footer>
+        <p>&copy; 2025 Weather App. All rights reserved.</p>
+    </footer>
+</body>
+</html>

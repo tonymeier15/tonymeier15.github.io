@@ -1,0 +1,113 @@
+#weather_alert_container {
+    width: 40vw;
+    height: auto;
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 0 12px 0 #0003;
+    padding-bottom: 16px;
+}
+
+#weather_alert_container_title {
+    width: auto;
+    height: auto;
+    text-align: left;
+    padding: 16px 16px;
+}
+
+#weather_alert_container_title span {
+    font-size: 1rem;
+    text-align: left;
+}
+
+#weather_alert_container_title strong {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+#weather_alert_container_information {
+    margin: 0px 0px auto;
+    height: auto;
+    background-color: whitesmoke;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 0px 16px;
+}
+
+.alert_information_top_container {
+    padding: 8px;
+    height: auto;
+    font-size: .875rem !important;
+    color: white;
+    border-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    cursor: pointer;
+}
+
+.storm_Information_Card:not(:first-child) {
+    margin-top: 10px;
+}
+
+.storm_Information_Card {
+    box-shadow: 0 0 12px 0 #0003;
+    border-radius: 8px;
+}
+
+.alert {
+    text-align: left;
+    padding: 16px;
+    line-height: 1.375;
+    font-size: 1rem;
+    background-color: #f1f1f1;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+h2, h4, p {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-size: .875rem !important;
+}
+
+h4:nth-of-type(n+2) {
+    margin: 10px 0px 0px;
+}
+
+#alert_description {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.no-radius {
+    border-bottom-left-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Styles for tablets (between 768px and 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    #weather_alert_container {
+        width: 90%;
+    }
+}
+
+/* Styles for phones (between 480px and 767px) */
+@media (min-width: 480px) and (max-width: 767px) {
+    #weather_alert_container {
+        width: 95%;
+    }
+}
+
+/* Styles for smaller phones (up to 479px) */
+@media (max-width: 479px) {
+    #weather_alert_container {
+        width: 95%;
+    }
+}
