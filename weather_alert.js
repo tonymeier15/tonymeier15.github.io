@@ -169,4 +169,4 @@ async function getWeatherByZIP(zip) {
     }
 }
 
-getWeatherByZIP(67756);
+getWeatherByZIP(82225);
